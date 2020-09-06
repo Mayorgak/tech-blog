@@ -14,6 +14,13 @@
       <h1>
         <a href="/"> Tech Blog</a>
       </h1>
+      <nav>
+        {{#if loggedIn}}
+      <button id="logout" class="btn-no-style">logout</button>
+      {{else}}
+       <a href="/login">login</a>
+       {{/if}}
+       </nav>
     </header>
     <main>
       {{{ body }}}
@@ -22,7 +29,9 @@
       Thanks for visiting!
     </footer>
   </div>
-
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
 </body>
 
 </html>

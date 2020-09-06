@@ -11,7 +11,7 @@ body, html {
   background-color: whitesmoke;
 }
 
-a {
+a  {
   text-decoration: none;
   color : darkcyan;
   font-weight: bold;
@@ -19,11 +19,11 @@ a {
 }
 
 a:hover {
-  color: #3486eb;
+  color: 	#A9A9A9 ;
 }
 
 button {
-  background-color: #225ca3;
+  background-color:  darkcyan;
   border: 0;
   padding: 1%;
   color: white;
@@ -34,7 +34,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: #A9A9A9;
 }
 
 .post-list {
@@ -98,7 +98,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: darkcyan;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -107,7 +107,7 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #A9A9A9;
 }
 
 .delete-post-btn {
