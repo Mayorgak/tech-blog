@@ -2,7 +2,7 @@
 
 CMS-style blog where developers can publish their blog posts and comment on other developers’ posts as well.
 
-![image]
+![image](https://github.com/Mayorgak/tech-blog/blob/develop/images/TechBlog.png)
 
 
 ## Installation
